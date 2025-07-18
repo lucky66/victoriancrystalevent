@@ -551,7 +551,7 @@ button {
     color: #DBAD3A;
     text-transform: uppercase;
     background-color: transparent;
-    margin: 0px 5px;
+    margin-left: auto;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -569,6 +569,20 @@ button {
 .navbar-brand {
     margin: 0px;
     float: right;
+    margin-top: 20px;
+}
+
+.navbar-brand img {
+    width: 350px;
+}
+
+@media only screen and (max-width:600px) {
+    .navbar-brand img {
+        width: 240px;
+    }
+    .navbar-toggler-icon {
+        margin-right: auto;
+    }
 }
 
 .navbar {
@@ -601,9 +615,6 @@ button {
     color: #f01c1c;
 }
 
-.navbar-brand{
-    margin-top: 20px;
-}
 
 
 /* header section end */
