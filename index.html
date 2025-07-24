@@ -17,6 +17,7 @@
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <!-- style css -->
       <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
@@ -156,7 +157,7 @@
                <div class="carousel-inner">
                   <div class="carousel-item active">
                      <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12" data-aos="zoom-in">
                            <h1 class="about_taital">What Our Clients Say About Us</h1>
                         </div>
                      </div>
@@ -290,14 +291,14 @@ Victoria, I honestly don’t even know where to start. Thank you for everything!
             </div>
             <div class="blog_section_2">
                <div class="row">
-                  <div class="col-md-5">
+                  <div class="col-md-5" data-aos="fade-right">
                      <div class="blog_box">
                         <h4 class="date_text"><i class="bi bi-patch-check-fill"></i> OUR HALLMARK </h4>
                         <p class="hallmark_text">At Victorian Crystal Event, our hallmark is the unwavering passion to create unforgettable experiences that leave lasting impressions. Whether it is a wedding, social event, or corporate function, we are driven by the joy of bringing people together and turning moments into cherished memories. <br><br> With over six years of industry experience and more than 100 successful events executed, our culture is defined by creativity, precision, and warmth. We are guided by core values of creativity, precision, and warmth, which shape our approach to every event we handle. </p>
                         <div class="read_story"><a href="#">Read our story</a></div>
                      </div>
                   </div>
-                  <div class="col-md-7">
+                  <div class="col-md-7" data-aos="fade-left">
                      <div class="blog_box" style="background-color: #000000;">
                         <div class="blog_img"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1102149916?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Osi &amp; Crystal"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
                            <h4 class="date_text">EVENT HIGHLIGHTS</h4>  
@@ -317,37 +318,37 @@ Victoria, I honestly don’t even know where to start. Thank you for everything!
                   <p class="consult_text">At Victorian Crystal Event, we are passionate about turning moments into unforgettable memories. <br> With us, you do not just host an event — you experience elegance, ease, and excellence.</p>
          </div>
          <div class="container why-grid">
-               <div class="why-content">
+               <div class="why-content" data-aos="slide-up">
                   <div class="why_box">
                      <h4 class="highlight_text"><i class="bi bi-ear-fill"></i> <br>We hear you, we create. </h4>
                      <p class="highlight_content_text">We take the time to truly listen to your ideas, your desires, your dreams — so we can bring your unique vision to life with precision and purpose. </p>
                   </div>
                </div>
-               <div class="why-content">
+               <div class="why-content" data-aos="slide-up">
                   <div class="why_box">
                      <h4 class="highlight_text"><i class="bi bi-patch-check-fill"></i> <br> Details Matter to Us.</h4>
                      <p class="highlight_content_text">We are committed to delivering consistent excellence with every event — tailored to your taste, aligned with your vision, and designed to impress. </p>
                   </div>
                </div>
-               <div class="why-content">
+               <div class="why-content" data-aos="slide-up">
                   <div class="why_box">
                      <h4 class="highlight_text"><i class="bi bi-calendar-event-fill"></i> <br> Customized solutions for your event. </h4>
                      <p class="highlight_content_text">We believe that no two events are the same. That is why we go the extra mile to offer customized solutions that align with your unique vision and preferences. </p>
                   </div>
                </div>
-               <div class="why-content">
+               <div class="why-content" data-aos="slide-up">
                   <div class="why_box">
                      <h4 class="highlight_text"><i class="bi bi-wallet2"></i> <br> Tailored Excellence Within Your Budget.</h4>
                      <p class="highlight_content_text">Whether you're planning an intimate gathering or a grand celebration, we tailor our services to fit your financial plan without compromising on quality, elegance, or excellence. </p>
                   </div>
                </div>
-               <div class="why-content">
+               <div class="why-content" data-aos="slide-up">
                   <div class="why_box">
                      <h4 class="highlight_text"><i class="bi bi-stars"></i> <br> We Are Credible and Committed.</h4>
                      <p class="highlight_content_text">We are here for the long haul, building a legacy of trust, excellence, and reliability. That is why we operate with complete transparency and honesty in every engagement. </p>
                   </div>
                </div>
-               <div class="why-content">
+               <div class="why-content" data-aos="slide-up">
                   <div class="why_box">
                      <h4 class="highlight_text"><i class="bi bi-signpost-2-fill"></i> <br> We Go the Extra Mile for You!</h4>
                      <p class="highlight_content_text">At Victorian Crystal Event, your satisfaction is our top priority. We are not just event planners — we are your dedicated partners, ready to exceed expectations. </p>
@@ -367,7 +368,7 @@ Victoria, I honestly don’t even know where to start. Thank you for everything!
                </div>
             </div>
          </div>
-         <div class="read_story"><a href="#">BOOK US</a></div>
+         <div class="read_story" data-aos="zoom-in"><a href="#">BOOK US</a></div>
       </div>
       <!-- contact section end -->
       <!-- footer section start -->
@@ -404,6 +405,13 @@ Victoria, I honestly don’t even know where to start. Thank you for everything!
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+      AOS.init({
+         duration: 1000,
+         once: true,
+      });
+      </script>
       
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
