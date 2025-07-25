@@ -235,13 +235,6 @@ img {
     float: right;
 }
 
-@media only screen and (max-width:560px) {
-    .navbar-brand img {
-        width: 150px;
-    }
-    
-}
-
 .navbar {
     padding: 0px 0px 20px 0px;
 }
@@ -469,13 +462,15 @@ img {
 
 .service-place-img-row {
     background-color: #DBAD3A;
-    padding: 30px 80px;
+    padding: 30px 0px;
+    justify-items: center;
     height: 100%;
 }
 
-.service-img-container .img-before,
-.service-img-container .img-after {
+
+.service-img-container .img-before {
     position: absolute;
+
 }
 
 .service-img-container .img-after {
@@ -484,9 +479,41 @@ img {
     left: 60px;
 }
 
-
 .service-img-container img {
     width: 300px;
+    box-shadow: 0 4px 4px rgba(34, 31, 31, 0.2);
+    border-radius: 10px;
+}
+
+.service-img-container2 {
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.service-img-container2 img {
+    width: 300px;
+    box-shadow: 0 4px 4px rgba(34, 31, 31, 0.2);
+    border-radius: 10px;
+}
+
+.service-img-container2 .img-second-before {
+    position: relative;
+    top: 100px;
+    left: 60px;
+    z-index: 1;
+}
+
+.service-img-container2 .img-second-after {
+    position: absolute;
+    z-index: 0;
+}
+
+.service-page2 {
+    margin-top: 30px;
+}
+
+.service-page3 {
+    margin-top: 30px;
 }
 
 /* services-end */
@@ -519,6 +546,13 @@ img {
     overflow: hidden;
 }
 
+@media (max-width: 1050px) { 
+    .service-place-img-row {
+        padding: 30px 0px;
+        justify-items: center;
+    }
+}
+
 @media (max-width: 768px) {
     .carousel {
         padding-top: 0px;
@@ -532,8 +566,39 @@ img {
     .story-box {
     padding: 120px 20px 20px 20px;
     }
+    .service-place {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+    .service-img-container img {
+        width: 300px;
+    }
+    .service-img-container2 img {
+        width: 300px;
+    }
+    .service-place-img-row {
+        padding: 30px 60px;
+        justify-items: flex-start;
+    }
 }
 
+@media only screen and (max-width:560px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+    .service-place {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .service-img-container img {
+        width: 250px;
+    }
+    .service-img-container2 img {
+        width: 250px;
+    }
+    .service-place-img-row {
+        padding: 30px 50px;
+        justify-items: flex-start;       
+    }
+}
 
 
 /* about section end */
