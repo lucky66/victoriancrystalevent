@@ -1105,7 +1105,7 @@ img {
 
 /* contact section start */
 
-.contact_section_2 {
+.contact_section {
     width: 100%;
     float: left;
 }
@@ -1163,11 +1163,10 @@ img {
 }
 
 .mail_date{
-    width: 100%;
+    width: 100% !important;
     font-size: 16px;
     border: 0px;
     margin-bottom: 20px;
-    background-color: #ffffff;
     padding: 11px 20px;
     margin-top: 0px;
     border-radius: 0px;
@@ -1176,14 +1175,13 @@ img {
 }
 
 .event-class {
-    width: 100%;
     position: relative !important;
     z-index: 1000 !important;
     cursor: pointer;
 }
 
 .event-type {
-    width: 100%;
+    width: 100% !important;
     cursor: pointer;
     border: 1px solid #2e2e2d;
     background-color: #ffffff;
