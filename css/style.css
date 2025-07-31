@@ -1162,8 +1162,22 @@ img {
     font-family: 'Poppins', sans-serif;
 }
 
-.event-class {
+.mail_date{
+    width: 100%;
+    font-size: 16px;
+    color: #2e2e2d;
+    border: 0px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 11px 20px;
+    margin-top: 0px;
+    border-radius: 0px;
+    border: 1px solid #000000;
+    font-family: 'Poppins', sans-serif;
+}
 
+.event-class {
+    width: 100%;
 }
 
 .event-type {
