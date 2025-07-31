@@ -1172,16 +1172,9 @@ img {
 
 .mail_date{
     width: 100% !important;
-    position:  relative !important;
-    z-index: 1000 !important;
-    font-size: 16px;
-    border: 0px;
     margin-bottom: 20px;
     padding: 11px 20px;
-    margin-top: 0px;
-    border-radius: 0px;
     border: 1px solid #000000;
-    font-family: 'Poppins', sans-serif;
 }
 
 .event-class {
