@@ -1123,9 +1123,11 @@ img {
 .book-page {
     background-color: #fdfcfc;
 }
+
 .book-us-now {
     padding: 50px;
 }
+
 .consult_text {
     text-align: center;
     color: #3b3b3b;
@@ -1145,7 +1147,8 @@ img {
     width: 50%;
     margin: 0 auto;
 }
-#mail_text {
+
+.mail_text {
     width: 100%;
     font-size: 16px;
     color: #2e2e2d;
@@ -1158,15 +1161,18 @@ img {
     border: 1px solid #000000;
     font-family: 'Poppins', sans-serif;
 }
+
+.event-class {
+
+}
+
 .event-type {
     width: 100%;
+    cursor: pointer;
     color: #2e2e2d;
     border: 1px solid #2e2e2d;
     background-color: #ffffff;
-    padding: 11px 20px;
-}
-input.mail_text::placeholder {
-    color: #2e2e2d;
+    margin-bottom: 20px;
 }
 
 .massage-bt {
@@ -1179,7 +1185,7 @@ input.mail_text::placeholder {
     padding: 40px 20px 0px 20px;
     border: 0px;
     height: 110px;
-    margin-top: 20px;
+    margin-top: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -1193,26 +1199,21 @@ textarea#comment.massage-bt::placeholder {
     text-align: center;
 }
 
-.send_bt a {
+.send_bt input {
     width: 100%;
     text-align: center;
     font-size: 16px;
     color: #ffffff;
+    cursor: pointer;
     background-color: #DBAD3A;
     padding: 10px;
     margin-top: 20px;
     display: block;
 }
 
-.send_bt a:hover {
+.send_bt input:hover {
     color: #161616;
     background-color: #efefef;
-}
-
-.map_main {
-    width: 100%;
-    float: left;
-    margin-top: 90px;
 }
 
 
