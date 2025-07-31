@@ -68,31 +68,20 @@
       </div>
       <!-- header section end -->
       <!-- about section start -->
-      <div class="layout_padding about-pae ">
-   <div class="container">
-      <div class="about_section">
-         <div class="row">
-            <div class="col-md-6 col-xl-6"> 
-               <div class="about_taital_box about-content">
-                  <h1 class="about_taital_1"><b> BOOK US TODAY<br></h1>
-                  <p class="about_text">                     
-                     AVAILABLE WORLDWIDE<br><br>
-                     We would love to connect with you and start planning your upcoming event.
-                     FILL THE FORM BELOW TO GET STARTED                     
-                  </p>
-               </div>
-            </div>
-
-            <!-- carousel -->
-            <div class="col-md-6 col-xl-6"> 
-               
-                  
-            
-            </div>
+      <div class="book-page">
+      <div class="container">
+         <div class="book_section">
+                  <div class="about_taital_box about-content">
+                     <h1 class="about_taital_1"><b> BOOK US TODAY<br></h1>
+                     <p class="about_text">                     
+                        AVAILABLE WORLDWIDE<br><br>
+                        We would love to connect with you and start planning your upcoming event.
+                        FILL THE FORM BELOW TO GET STARTED                     
+                     </p>
+                  </div>               
          </div>
       </div>
-   </div>
-</div>
+      </div>
       
       <!-- about section end -->
 
@@ -139,14 +128,25 @@
                </div>
             </div>
          </div>
-         <div class="container-fluid">
+         <!-- <div class="container-fluid">
             <div class="contact_section_2">
                <div class="row">
                   <div class="col-md-12">
                      <div class="mail_section_1">
-                        <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
-                        <input type="text" class="mail_text" placeholder="Your Email" name="Your Email">
+                        
+                        <div>
+                           <h2>Full Name</h2>
+                           <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
+                        </div>
+                        <div>
+                           <h2>Email</h2>
+                           <input type="text" class="mail_text" placeholder="Your Email" name="Your Email">
+                        </div>
                         <input type="text" class="mail_text" placeholder="Your Phone" name="Your Phone">
+                        <input type="text" class="">
+                        <div>
+                           <input type="date" class="mail_text">
+                        </div>
                         <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
                         <div class="send_bt"><a href="#">SEND</a></div>
                      </div>
@@ -154,8 +154,61 @@
                   
                </div>
             </div>
+         </div> -->
+      <!-- </div> -->
+
+      <div class="container-fluid">
+            <div class="contact_section_2">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="mail_section_1">
+                        <form action="">
+                           <div>
+                              <h2>Full Name</h2>
+                              <input id="mail_text" type="text" name="fullname" placeholder="Full Name" required>
+                           </div>
+                           <div>
+                              <h2>Email</h2>
+                              <input id="mail_text" type="email" name="email" placeholder="Email" required>
+                           </div>
+                           <div>
+                              <h2>Whatsapp Contact</h2>
+                              <input id="mail_text" type="text" name="yourphone" placeholder="Your Phone" required>
+                           </div>
+                           <div>
+                              <h2>Type of Event</h2>
+                              <select class="form-select event-type">
+                                 <option selected>Select</option>
+                                 <option value="Wedding">Wedding</option>
+                                 <option value="corporate">Corporate</option>
+                                 <option value="anniversary">Anniversary</option>
+                                 <option value="others">Others</option>
+                              </select>
+                           </div>
+                           <div>
+                              <h2>Date of Event</h2>
+                              <input id="mail_text" type="date" name="date" >
+                           </div>
+                           <div>
+                              <h2>Expected Number of Guests</h2>
+                              <input id="mail_text" type="text" name="sizeofguest" placeholder="Size of Guets">
+                           </div>
+                           <div>
+                              <h2>Exact Location of Event</h2>
+                              <input id="mail_text" type="text" name="sizeofguest" placeholder="Location">
+                           </div>
+                           <div>
+                              <h2>Message</h2>
+                              <input class="massage-bt" id="comment" type="text" name="message" placeholder="Message">
+                           </div>
+                           <div class="send_bt"><input type="submit" required="required"></div>
+                        </form>
+                     </div>
+                  </div>               
+               </div>
+            </div>
          </div>
-      </div>
+         
       <!-- contact section end -->
       <!-- footer section start -->
          

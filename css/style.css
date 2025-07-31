@@ -722,11 +722,14 @@ img {
         justify-items: flex-start;       
     }
     .portfolio-place {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
     .portfolio-container {
-    height: 450px;
+        height: 450px;
+    }
+    .founder-bio {
+        text-align: center;
     }
 }
 
@@ -1077,7 +1080,7 @@ img {
     text-align: center;
   font-size: 20px;
   color: #ffffff;
-  background-color: #DBAD3A;
+  background-color: #D4AF37;
   padding: 15px;
   border-radius: 10px 10px 0 0;
   font-weight: 600;
@@ -1117,6 +1120,12 @@ img {
     justify-items: center;
 }
 
+.book-page {
+    background-color: #fdfcfc;
+}
+.book-us-now {
+    padding: 50px;
+}
 .consult_text {
     text-align: center;
     color: #3b3b3b;
@@ -1136,21 +1145,26 @@ img {
     width: 50%;
     margin: 0 auto;
 }
-
-.mail_text {
+#mail_text {
     width: 100%;
-    float: left;
     font-size: 16px;
     color: #2e2e2d;
     border: 0px;
+    margin-bottom: 20px;
     background-color: #ffffff;
     padding: 11px 20px;
-    margin-top: 20px;
+    margin-top: 0px;
     border-radius: 0px;
     border: 1px solid #000000;
     font-family: 'Poppins', sans-serif;
 }
-
+.event-type {
+    width: 100%;
+    color: #2e2e2d;
+    border: 1px solid #2e2e2d;
+    background-color: #ffffff;
+    padding: 11px 20px;
+}
 input.mail_text::placeholder {
     color: #2e2e2d;
 }
