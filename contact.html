@@ -17,6 +17,7 @@
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <!-- style css -->
+      <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
@@ -71,11 +72,11 @@
       <div class="book-page">
       <div class="container">
          <div class="book_section">
-                  <div class=" about-content">
-                     <h1 class="about_taital_1"><b> BOOK US TODAY<br></h1>
+                  <div class="about_taital_box">
+                     <h1 class="about_taital_1" data-aos="fade-down"><b> BOOK US TODAY<br></h1>
                      <p class="about_text">                     
                         AVAILABLE WORLDWIDE<br><br>
-                        We would love to connect with you and start planning your upcoming event. <br>
+                        We would love to connect with you and start planning your upcoming event.
                         FILL THE FORM BELOW TO GET STARTED                     
                      </p>
                   </div>               
@@ -123,7 +124,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="contact_taital">BOOK US FOR YOUR NEXT EVENT</h1>
+                  <h1 class="contact_taital" id="typed-text"></h1>
                   <p class="consult_text">We provide expert event planning services, guiding you through every step, from vendor selection and budgeting to logistics and strategy. Whether it is a wedding, corporate event, or private celebration, we are here to turn your vision into a flawless, unforgettable experience.</p>
                </div>
             </div>
@@ -230,6 +231,22 @@
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/plugin.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      <script>
+      AOS.init({
+         duration: 1000, // Animation duration in milliseconds
+         once: true      // Animation happens only once when scrolled into view
+      });
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+      var typed = new Typed("#typed-text", {
+         strings: ["BOOK US FOR YOUR NEXT EVENT", "We bring elegance to every occasion."],
+         typeSpeed: 50,
+         backSpeed: 30,
+         loop: false
+      });
+      </script>
       
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>

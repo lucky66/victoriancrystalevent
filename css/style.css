@@ -1129,6 +1129,7 @@ img {
 }
 
 .consult_text {
+    margin-top: -10px;
     text-align: center;
     color: #3b3b3b;
 }
