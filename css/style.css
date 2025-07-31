@@ -1105,7 +1105,7 @@ img {
 
 /* contact section start */
 
-.contact_section {
+.contact_section_2 {
     width: 100%;
     float: left;
 }
@@ -1178,6 +1178,7 @@ img {
 
 .event-class {
     width: 100%;
+    cursor: pointer;
 }
 
 .event-type {
