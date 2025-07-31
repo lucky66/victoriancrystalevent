@@ -735,6 +735,9 @@ img {
     .founder-bio {
         text-align: center;
     }
+    .mail_date{ 
+        width: 100% !important;
+    }
 }
 
 
@@ -1169,6 +1172,8 @@ img {
 
 .mail_date{
     width: 100% !important;
+    position:  relative !important;
+    z-index: 1000 !important;
     font-size: 16px;
     border: 0px;
     margin-bottom: 20px;
