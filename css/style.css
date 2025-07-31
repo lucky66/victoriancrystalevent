@@ -1165,7 +1165,6 @@ img {
 .mail_date{
     width: 100%;
     font-size: 16px;
-    color: #2e2e2d;
     border: 0px;
     margin-bottom: 20px;
     background-color: #ffffff;
@@ -1178,13 +1177,14 @@ img {
 
 .event-class {
     width: 100%;
+    position: relative !important;
+    z-index: 1000 !important;
     cursor: pointer;
 }
 
 .event-type {
     width: 100%;
     cursor: pointer;
-    color: #2e2e2d;
     border: 1px solid #2e2e2d;
     background-color: #ffffff;
     margin-bottom: 20px;
