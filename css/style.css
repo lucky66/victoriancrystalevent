@@ -1190,6 +1190,15 @@ img {
     margin-bottom: 20px;
 }
 
+.event-type option {
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #2e2e2d;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
 .massage-bt {
     color: #2e2e2d;
     width: 100%;
