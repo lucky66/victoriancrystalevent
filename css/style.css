@@ -702,6 +702,10 @@ img {
     .navbar-brand img {
         width: 150px;
     }
+    .highlight-event {
+        width: 150px !important;
+        font-size: 14px !important;
+    }
     .blog_box:first-child {
         margin-bottom: 20px;
     }
